@@ -10,7 +10,7 @@ export default async function handler(
 				'https://online.yoco.com/v1/charges/',
 				{
 					token: req.body,
-					amountInCents: 2499,
+					amountInCents: 200,
 					currency: 'ZAR',
 				},
 				{

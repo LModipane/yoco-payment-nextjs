@@ -14,7 +14,7 @@ const HomePage = () => {
 
 					const inline = sdk.inline({
 						layout: 'Basic',
-						amountInCents: 2499,
+						amountInCents: 200,
 						currency: 'ZAR',
 					});
 
@@ -61,7 +61,7 @@ const HomePage = () => {
 						{/* <!-- Yoco Inline form will be added here --> */}
 					</div>
 					<button id="pay-button" type="submit">
-						PAY ZAR 24.99
+						PAY ZAR 2.00
 					</button>
 				</div>
 				<p className="success-payment-message" />
